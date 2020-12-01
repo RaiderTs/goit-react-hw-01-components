@@ -1,0 +1,57 @@
+.item {
+  width: 276px;
+  height: 80px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 8px 14px;
+  margin: 10px 0;
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: rgb(225, 247, 245);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+  transition: transform 250ms;
+}
+
+.item:hover,
+.item:focus {
+  transform: translateX(20px);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.status {
+  display: block;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.isOnline {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #5ca95e;
+}
+
+.isOffline {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #fa554c;
+}
+
+.avatar {
+  margin: 7%;
+  
+}
+
+.name {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 18px;
+}
